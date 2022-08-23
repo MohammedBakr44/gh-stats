@@ -48,7 +48,7 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        EXCLUDED: ${{ secrets.EXCLUDED }}
+        EXCLUDED: dotfiles
         EXCLUDED_LANGS: GLSL
         EXCLUDE_FORKED_REPOS: true
 
